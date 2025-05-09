@@ -1,0 +1,27 @@
+# Copyright 2024 Humanity Unleashed project contributors.
+
+.env
+**/.envrc
+# Pants workspace files
+/.pants.d
+/dist/
+
+# Cache
+__pycache__
+/.pytest_cache
+/.mypy_cache
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Time-LLM
+.venv/
+dataset/*
+!dataset/prompt_bank/
+!dataset/feature_engineer.py
+checkpoints/
+
+# W&B
+wandb/
