@@ -1,4 +1,2 @@
-# mts-prediction
-Research Project for Multivariate Time Series Prediction Team
-
-Integrated cross-variate module into Time-LLM to enhance the channel-independent model with cross-variate dependencies. The module takes inspiration from Crossformer's Two-Stage Attention with the cross-time attention turned off to remove redundancies.
+# Enhancing Channel-Independent Time Series Forecasting via Cross-Variate Patch Embedding
+This is the official PyTorch implementation of [Enhancing Channel-Independent Time Series Forecasting via Cross-Variate Patch Embedding](https://arxiv.org/abs/2505.12761).
