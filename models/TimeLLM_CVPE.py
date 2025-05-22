@@ -1,4 +1,4 @@
-''' Time-LLM with Cross-Variate Module '''
+''' Time-LLM with Cross-Variate Patch Embedding Module '''
 
 from math import sqrt
  

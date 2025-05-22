@@ -61,7 +61,7 @@ accelerate launch --multi-gpu --mixed_precision bf16 --num_processes $num_proces
   --batch_size $batch_size \
   --learning_rate $learning_rate \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -114,7 +114,7 @@ accelerate launch --multi-gpu --mixed_precision bf16 --num_processes $num_proces
   --batch_size $batch_size \
   --learning_rate $learning_rate \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -167,7 +167,7 @@ accelerate launch --multi-gpu --mixed_precision bf16 --num_processes $num_proces
   --batch_size $batch_size \
   --learning_rate $learning_rate \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -220,6 +220,6 @@ accelerate launch --multi-gpu --mixed_precision bf16 --num_processes $num_proces
   --batch_size $batch_size \
   --learning_rate $learning_rate \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment

@@ -130,7 +130,7 @@ accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_proces
   --patience 10 \
   --model_comment $comment
 
-# TSA Variant
+# CVPE Variant
 accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_process --main_process_port $master_port run_main.py \
   --task_name long_term_forecast \
   --is_training 1 \
@@ -156,7 +156,7 @@ accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_proces
   --llm_model 'GPT2' \
   --llm_dim 768 \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -186,7 +186,7 @@ accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_proces
   --llm_model 'GPT2' \
   --llm_dim 768 \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -216,7 +216,7 @@ accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_proces
   --llm_model 'GPT2' \
   --llm_dim 768 \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs $train_epochs \
   --model_comment $comment
 
@@ -247,7 +247,7 @@ accelerate launch --multi_gpu --mixed_precision bf16 --num_processes $num_proces
   --llm_model 'GPT2' \
   --llm_dim 768 \
   --llm_layers $llama_layers \
-  --variant 'tsa' \
+  --variant 'cvpe' \
   --train_epochs 20 \
   --patience 10 \
   --model_comment $comment
